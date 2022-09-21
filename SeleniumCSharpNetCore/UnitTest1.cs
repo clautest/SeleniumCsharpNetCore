@@ -26,7 +26,7 @@ namespace SeleniumCSharpNetCore
 
             CustomControl.Login("user-name", "password", "standard_user", "secret_sauce");
 
-            Console.WriteLine("Test1");
+            
             Assert.Pass();
         }
     }
